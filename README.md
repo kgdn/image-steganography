@@ -13,7 +13,6 @@ To build this program, clone the repository using:
 `git clone https://github.com/kgdn/image-stenography.git`. 
 
 Then, in the `image-stenography` directory, run the following command:
-and run the following command:
 
 ```go build```
 
