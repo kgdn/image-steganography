@@ -140,10 +140,6 @@ func decode(newimg PPM, oldimg PPM) string {
 }
 
 func main() {
-	// When encoding, the program will be invoked as
-	// ./steg e old.ppm >new.ppm
-	// When decoding, the program will be invoked as
-	// ./steg d old.ppm new.ppm
 	if os.Args[1] == "t" {
 		// print the input image
 		ppm := readPPM(os.Args[2])
@@ -167,7 +163,7 @@ func main() {
 		// Decode the message
 		message := decode(newimg, oldimg)
 		// Print the message
-		fmt.Println("Decoded message:\n", message)
+		fmt.Println("Decoded message:", message)
 	} else {
 		fmt.Println("Usage: ./steg [e|d|t] <input file> ><output file>")
 		os.Exit(1)
