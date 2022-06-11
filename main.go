@@ -1,12 +1,8 @@
 /*
- * Author: Kieran Gordon, Heriot-Watt University
+ * Author: Kieran Gordon
  * Date:   09/06/2022
  *
  * Description: This program is a simple program that encrypts and decrypts text using a PPM image.
- * This program is based on the Image Stenography coursework for F28HS - Hardware-Software Interfaces
- * at Heriot-Watt University, Edinburgh. The program is written in Go, and the program which this program
- * is based on was implemented in C by Kieran Gordon. This code is not available due to the university's
- * plagiarism policy.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
