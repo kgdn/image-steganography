@@ -1,6 +1,6 @@
 ## Image Stenography in Go
 
-This is a simple implementation of image stenography in Go.*Please note that this is a very simple implementation of image stenography. It is not meant to be a robust implementation, but instead a simple implementation that was made to learn the basics of Go.*
+This is a simple implementation of image stenography in Go. *Please note that this is a very simple implementation of image stenography. It is not meant to be a robust implementation, but instead a simple implementation that was made to learn the basics of Go.*
 
 The program is designed to encode text into a PPM image and then decode the text back from the image. The program can be invoked using the following command:
 `./steg <mode> <input_image> <output_image>`
