@@ -1,6 +1,6 @@
 ## Image Stenography in Go
 
-This is a simple implementation of image stenography in Go. *Please note that this is a very simple implementation of image stenography. It is not meant to be a robust implementation, but instead a simple implementation that was made to learn the basics of Go.*
+This is a simple implementation of image steganography in Go. *Please note that this is a very simple implementation of image steganography. It is not meant to be a robust implementation, but instead a simple implementation that was made to learn the basics of Go.*
 
 The program is designed to encode text into a PPM image and then decode the text back from the image. The program can be invoked using the following command:
 `./steg <mode> <input_image> <output_image>`
@@ -10,9 +10,9 @@ The program can be run in three modes: `e(ncode)`, `d(ecode)` and `t(est)`. The 
 
 To build this program, clone the repository using: 
 
-`git clone https://github.com/kgdn/image-stenography.git`. 
+`git clone https://github.com/kgdn/image-steganography.git`. 
 
-Then, in the `image-stenography` directory, run the following command:
+Then, in the `image-steganography` directory, run the following command:
 
 ```go build```
 
