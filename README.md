@@ -15,5 +15,3 @@ To build this program, clone the repository using:
 Then, in the `image-steganography` directory, run the following command:
 
 ```go build```
-
-Let's Go!
